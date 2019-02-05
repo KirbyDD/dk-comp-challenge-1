@@ -8,7 +8,7 @@ header{
 main{
   width: 100%;
   background-color: #e5e5e5;
-  height: 1475px;
+  height: 1385px;
   flex-wrap: wrap;
 }
 section{
@@ -16,12 +16,12 @@ section{
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 925px;
 }
 article{
   box-shadow: 0px 0px 2px 1px #000;
-  width: 22%;
+  width: 24%;
   margin-bottom: 1.5%;
+  background-color: #fff
 }
 .headbar2{
   display: flex;
@@ -53,6 +53,9 @@ h1{
   font-weight: normal;
   font-size: 42px;
   color: #4c4c4c;
+}
+h3{
+  margin-bottom: 4px;
 }
 a{
   text-decoration: none;
@@ -100,16 +103,21 @@ header p{
 .p-kda{
   font-size: 13px;
   color: #7f7f7f;
+  margin-top: 0px;
+  margin-bottom: 21px;
 }
 .s-text{
   font-size: 13px;
+  margin-bottom: 0px;
 }
 .role{
   font-size: 20px;
+  margin-top: 0px;
 }
 .win-per{
   font-size:25px;
   color: #42c7db;
+  margin-top: 0px;
 }
 .card1{
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/Zilean_lol.jpg");
